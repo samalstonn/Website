@@ -12,15 +12,22 @@
 
 <body>
   <div class="header">
-    <h1>Sam Alston</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="resume.html">Resume</a></li>
-        <li><a href="projects.html">Projects</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
+    <h1 class="topleft">Sam Alston</h1>
+    <div class="nav">
+      <a href="index.html">Home</a>
+      <a href="resume.html">Resume</a>
+      <div class="dropdown">
+        <button href class="dropdown-button">
+          Projects
+        </button>
+        <div class="dropdown-menu">
+          <a href="#">Space Invaders</a>
+          <a href="#">Mapping Zipcodes</a>
+          <a href="#">Rowing Rankings</a>
+        </div>
+      </div>
+      <a href="contact.html">Contact</a>
+    </div>
   </div>
 
   <div class="center">
@@ -29,9 +36,11 @@
     </div>
     <img class="picofme" src="images/picofme.jpeg" alt="A Picture of Me">
     <div class="description">
-      <p>I am a second year Computer Science Student at Cornell University. I am
-        also a D1 Varsity Athlete on the Lightweight Rowing Team. Click around
-        to see some of my projects or some more information about me!
+      <p>I am a second year Computer Science Student at Cornell University from
+        Belmar, New Jersey. I am also a D1 Varsity Athlete on the Lightweight
+        Rowing Team. Click around to see some of my projects or some more
+        information about me! This website was created using HTML, CSS,
+        and Javascript with the framework React.
       </p>
     </div>
   </div>
