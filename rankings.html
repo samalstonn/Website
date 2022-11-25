@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Space Invaders</title>
+
+  <link rel="stylesheet" type="text/css" href="styles/site.css">
+</head>
+
+<body>
+  <div class="header">
+    <h1 class="topleft">Sam Alston</h1>
+    <div class="nav">
+      <a href="index.html">Home</a>
+      <a href="resume.html">Resume</a>
+      <div class="dropdown">
+        <button href class="dropdown-button">
+          Projects
+        </button>
+        <div class="dropdown-menu">
+          <a href="invaders.html">Space Invaders</a>
+          <a href="zipcodes.html">Mapping Zipcodes</a>
+          <a href="rankings.html">Rowing Rankings</a>
+        </div>
+      </div>
+      <a href="contact.html">Contact</a>
+    </div>
+  </div>
+
+  <div class="welcome">
+    <h2>Rowing Rankings</h2>
+  </div>
+  <div class="project-page">
+    <div class="rankings-left">
+      <div class="project-img">
+        <img class="rankings" src="images/rankings.png" alt="Final Rankings">
+        <p>Finalized Results in a .csv file</p>
+      </div>
+      <h2>How I Did:</h2>
+      <div class="rankings-results">
+        <img class="left1" src="images/earc.png" alt="Eastern Sprints">
+        <img class="left2" src="images/1v.png" alt="1v Predictions">
+      </div>
+      <p class="under">Here are the results for the Varsity Race at the Eastern Sprints
+        Championship. Looks like I did a pretty good job! Rowing races,
+        especially lightweight rowing races can be very hard to predict.
+        There are many factors I can't include, such as injuries and substitutions.
+        However, I look forward to improving my analysis next year!
+      </p>
+    </div>
+    <div class="project-description">
+      <p class="rankings-font"> I devised this project to analyze collegiate rowing races in the regular
+        season and predict their results in the championship season. In the regular
+        season, all teams do not race each other so I wanted to see if I could
+        predict how each team would do. First, I took, results from row2k.com
+        (shown below). Next, I turned the races into a .txt file and compared
+        each team with multiple different ranking systems to get a composite result.
+        I factored in the conditions around racing to the results such as wind-speed,
+        recency of the race, home team advantage etc. I sorted the teams based on
+        average margin, total margin, and even re-ran the races again with an initial
+        ranking to give stronger/weaker teams more or less weight! Scroll down to
+        see how I did.
+      </p>
+      <div class="rankings-img2">
+        <img class="rankings2" src="images/rankings2.png" alt="Row2k">
+        <p>Row2k results</p>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
